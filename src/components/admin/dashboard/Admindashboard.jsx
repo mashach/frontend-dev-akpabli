@@ -2,7 +2,7 @@
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { FiLogOut, FiUsers, FiShoppingBag, FiHome } from "react-icons/fi";
 
-export default function Dashboard() {
+export default function Admindashboard() {
   const navigate = useNavigate();
 
   const handleLogout = () => {

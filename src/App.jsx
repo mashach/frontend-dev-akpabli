@@ -10,7 +10,7 @@ import Home from "./pages/Home"
 import Category from "./pages/Category"
 import Details from "./pages/Details"
 import Checkout from "./pages/Checkout"
-import Dashboard from './components/admin/dashboard/dashboard'
+import Admindashboard from './components/admin/dashboard/Admindashboard.jsx'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import Orders from './components/admin/Order'
 import OrderDetail from './components/admin/OrderDetail'
@@ -29,7 +29,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     {/* Admin routes */}
     <Route path="admin">
       <Route path="login" element={<Adminlogin />} />
-      <Route path="dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>}/>
+      <Route path="dashboard" element={<ProtectedRoute><Admindashboard /></ProtectedRoute>}/>
       <Route path="orders" element={<ProtectedRoute><Orders /></ProtectedRoute>} />
        <Route path="products" element={<ProtectedRoute><Products /></ProtectedRoute>} />
       <Route path="Users" element={<ProtectedRoute><Users /></ProtectedRoute>} />
