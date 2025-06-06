@@ -10,13 +10,13 @@ import Home from "./pages/Home"
 import Category from "./pages/Category"
 import Details from "./pages/Details"
 import Checkout from "./pages/Checkout"
-import Login from './components/admin/login'
 import Dashboard from './components/admin/dashboard/dashboard'
 import ProtectedRoute from './components/admin/ProtectedRoute'
 import Orders from './components/admin/Order'
 import OrderDetail from './components/admin/OrderDetail'
 import Users from './components/admin/Users'
 import Products from './components/admin/Products'
+import Login from './components/admin/login.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>

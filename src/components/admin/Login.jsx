@@ -2,7 +2,7 @@ import { Link, Form, useOutletContext, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import SeeProductBtn from "../Shared/SeeProductBtn";
 
-// try admin credentials (in a real app, these would come from a secure backend)
+// Mock admin credentials (in a real app, these would come from a secure backend)
 const ADMIN_CREDENTIALS = {
   username: "admin",
   password: "password123"
@@ -26,9 +26,9 @@ export default function Login() {
 
     // Check credentials
     if (username === ADMIN_CREDENTIALS.username && password === ADMIN_CREDENTIALS.password) {
-      // set authentication token here
+      // In a real app, you would set authentication token here
       localStorage.setItem("isAuthenticated", "true");
-      navigate("/admin/orders"); // Redirect to dashboard after successful login /admin/dashboard
+      navigate("/admin/orders"); // Redirect to dashboard after successful login
     } else {
       setError("Invalid username or password");
     }
