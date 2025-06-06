@@ -1,3 +1,12 @@
+# GitHub repository:https://github.com/mashach/frontend-dev-akpabli.git
+# CMS:https://frontend-dev-akpabli.vercel.app/admin/login
+# username:Admin
+# password:password123
+# running instance :https://frontend-dev-akpabli.vercel.app/
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
