@@ -8,7 +8,7 @@ const ADMIN_CREDENTIALS = {
   password: "password123"
 };
 
-export default function Login() {
+export default function Adminlogin() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

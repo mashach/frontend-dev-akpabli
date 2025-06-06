@@ -16,7 +16,7 @@ import Orders from './components/admin/Order'
 import OrderDetail from './components/admin/OrderDetail'
 import Users from './components/admin/Users'
 import Products from './components/admin/Products'
-import Login from './components/admin/login.jsx'
+import Adminlogin from './components/admin/Adminlogin.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>
@@ -28,7 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
 
     {/* Admin routes */}
     <Route path="admin">
-      <Route path="login" element={<Login />} />
+      <Route path="login" element={<Adminlogin />} />
       <Route path="dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>}/>
       <Route path="orders" element={<ProtectedRoute><Orders /></ProtectedRoute>} />
        <Route path="products" element={<ProtectedRoute><Products /></ProtectedRoute>} />
