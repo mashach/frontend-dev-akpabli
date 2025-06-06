@@ -1,4 +1,4 @@
-# GitHub repository:https://github.com/mashach/frontend-dev-akpabli.git
+# GitHub repository:https://github.com/mashach/frontend-dev-akpabli
 # CMS:https://frontend-dev-akpabli.vercel.app/admin/login
 # username:Admin
 # password:password123
